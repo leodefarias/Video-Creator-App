@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './Card'; // Importando o componente Card
+import Card from '../components/Card'; // Importando o componente Card
 import '../styles/Home.css'; // CSS específico para a Home
 
 const Home = () => {

@@ -1,4 +1,3 @@
-import React from 'react';
 import twitterIcon from '../assets/icons/twitter.png';
 import instagramIcon from '../assets/icons/instagram-contact.png';
 import discordIcon from '../assets/icons/discord.png';

@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/card.css';
 
 function Card({ bgColor, title, icon, number, description }) {

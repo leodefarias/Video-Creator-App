@@ -13,8 +13,8 @@ const Sobre = () => {
         </div>
 
         <div className="image-section">
-          <div className="image" style={{ backgroundImage: "url('/src/assets/images/sobre-image1.png')" }}></div>
-          <div className="image" style={{ backgroundImage: "url('/src/assets/images/sobre-image2.png')" }}></div>
+          <div className="image" style={{ backgroundImage: "url('sobre-image1.png')" }}></div>
+          <div className="image" style={{ backgroundImage: "url('sobre-image2.png')" }}></div>
         </div>
       </div>
 
@@ -69,7 +69,7 @@ const Sobre = () => {
           <div className="plano corporativo">
             <div className="header">Corporativo</div>
             <div className="content">
-              <img src="/src/assets/images/desenho-pessoa-celular.png" alt="Desenho de uma pessoa ao lado de um celular" className="corporativo-image" />
+              <img src="desenho-pessoa-celular.png" alt="Desenho de uma pessoa ao lado de um celular" className="corporativo-image" />
             </div>
             <div className="button-container">
               <button className="button">Entrar Em Contato</button>

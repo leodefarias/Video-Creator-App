@@ -1,6 +1,3 @@
-import twitterIcon from '../assets/icons/twitter.png';
-import instagramIcon from '../assets/icons/instagram-contact.png';
-import discordIcon from '../assets/icons/discord.png';
 import '../styles/Contato.css'; // Certifique-se de que o caminho do arquivo CSS esteja correto
 
 function Contato() {
@@ -13,9 +10,9 @@ function Contato() {
             <h2>Dúvidas e suporte, entre em contato:</h2>
           </div>
           <div className="social-icons">
-            <img src={twitterIcon} alt="Twitter" />
-            <img src={instagramIcon} alt="Instagram" />
-            <img src={discordIcon} alt="Discord" />
+            <img src={'twitter.png'} alt="Twitter" />
+            <img src={'instagram-contact.png'} alt="Instagram" />
+            <img src={'discord.png'} alt="Discord" />
           </div>
         </div>
 

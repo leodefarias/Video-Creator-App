@@ -12,7 +12,7 @@ const Home = () => {
           <a href="#start" className="primary-button">Começar agora!</a>
         </div>
         <div className="image-container">
-          <img src="/src/assets/images/home-image.png" alt="Hero" className="hero-image" />
+          <img src="home-image.png" alt="Hero" className="hero-image" />
         </div>
       </div>
 
@@ -20,7 +20,7 @@ const Home = () => {
         <Card
           bgColor="#F1C2B0"
           title="Youtube"
-          icon="/src/assets/icons/youtube.png"
+          icon="youtube.png"
           number="01"
           description="Produza conteúdo cativante e conquiste seu público com vídeos de alta qualidade no maior palco digital do mundo."
         />
@@ -28,7 +28,7 @@ const Home = () => {
         <Card
           bgColor="#F9EB98"
           title="Tiktok"
-          icon="/src/assets/icons/tiktok.png"
+          icon="tiktok.png"
           number="02"
           description="Faça sua criatividade brilhar em vídeos curtos e envolventes que vão cativar a comunidade global do TikTok."
         />
@@ -36,7 +36,7 @@ const Home = () => {
         <Card
           bgColor="#C0D9DD"
           title="Facebook"
-          icon="/src/assets/icons/facebook.png"
+          icon="facebook.png"
           number="03"
           description="Conecte-se com sua audiência de forma autêntica e impactante através de vídeos que se destacam no feed do Facebook."
         />
@@ -44,7 +44,7 @@ const Home = () => {
         <Card
           bgColor="#6975E8"
           title="Instagram"
-          icon="/src/assets/icons/instagram-card.png"
+          icon="instagram-card.png"
           number="04"
           description="Compartilhe suas histórias de maneira única e conquiste milhões de likes no Instagram utilizando Stories e Reels."
         />

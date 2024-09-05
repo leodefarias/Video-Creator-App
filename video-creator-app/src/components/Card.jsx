@@ -8,10 +8,12 @@ function Card({ bgColor, title, icon, number, description }) {
 
   return (
     <div className="card" style={cardStyle}>
-      <img src={icon} alt={title} className="card-icon" />
-      <h2>{number}</h2>
-      <h3>{title}</h3>
-      <p>{description}</p>
+      <div className="card-content">
+        <div className="number">{number}</div>
+        <div className="title">{title}</div>
+        <div className="description">{description}</div>
+      </div>
+      <img src={icon} alt={`${title} Icon`} className="icon" />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
-import '../styles/Home.css'; // Importa o CSS para a página Home
-import '../styles/card.css'; // Importa o CSS específico dos cards
+import Card from './Card'; // Importando o componente Card
+import '../styles/Home.css'; // CSS específico para a Home
 
 const Home = () => {
   return (
@@ -18,49 +18,37 @@ const Home = () => {
       </div>
 
       <div className="cards-container">
-        <div className="card" style={{ backgroundColor: '#F1C2B0' }}>
-          <div className="card-content">
-            <div className="number">01</div>
-            <div className="title">Youtube</div>
-            <div className="description">
-              Produza conteúdo cativante e conquiste seu público com vídeos de alta qualidade no maior palco digital do mundo.
-            </div>
-          </div>
-          <img className="icon" src="/src/assets/icons/youtube.png" alt="Youtube Icon" />
-        </div>
+        <Card
+          bgColor="#F1C2B0"
+          title="Youtube"
+          icon="/src/assets/icons/youtube.png"
+          number="01"
+          description="Produza conteúdo cativante e conquiste seu público com vídeos de alta qualidade no maior palco digital do mundo."
+        />
 
-        <div className="card" style={{ backgroundColor: '#F9EB98' }}>
-          <div className="card-content">
-            <div className="number">02</div>
-            <div className="title">Tiktok</div>
-            <div className="description">
-              Faça sua criatividade brilhar em vídeos curtos e envolventes que vão cativar a comunidade global do TikTok.
-            </div>
-          </div>
-          <img className="icon" src="/src/assets/icons/tiktok.png" alt="Tiktok Icon" />
-        </div>
+        <Card
+          bgColor="#F9EB98"
+          title="Tiktok"
+          icon="/src/assets/icons/tiktok.png"
+          number="02"
+          description="Faça sua criatividade brilhar em vídeos curtos e envolventes que vão cativar a comunidade global do TikTok."
+        />
 
-        <div className="card" style={{ backgroundColor: '#C0D9DD' }}>
-          <div className="card-content">
-            <div className="number">03</div>
-            <div className="title">Facebook</div>
-            <div className="description">
-              Conecte-se com sua audiência de forma autêntica e impactante através de vídeos que se destacam no feed do Facebook.
-            </div>
-          </div>
-          <img className="icon" src="/src/assets/icons/facebook.png" alt="Facebook Icon" />
-        </div>
+        <Card
+          bgColor="#C0D9DD"
+          title="Facebook"
+          icon="/src/assets/icons/facebook.png"
+          number="03"
+          description="Conecte-se com sua audiência de forma autêntica e impactante através de vídeos que se destacam no feed do Facebook."
+        />
 
-        <div className="card" style={{ backgroundColor: '#6975E8' }}>
-          <div className="card-content">
-            <div className="number">04</div>
-            <div className="title">Instagram</div>
-            <div className="description">
-              Compartilhe suas histórias de maneira única e conquiste milhões de likes no Instagram utilizando Stories e Reels.
-            </div>
-          </div>
-          <img className="icon" src="/src/assets/icons/instagram-card.png" alt="Instagram Icon" />
-        </div>
+        <Card
+          bgColor="#6975E8"
+          title="Instagram"
+          icon="/src/assets/icons/instagram-card.png"
+          number="04"
+          description="Compartilhe suas histórias de maneira única e conquiste milhões de likes no Instagram utilizando Stories e Reels."
+        />
       </div>
     </div>
   );
